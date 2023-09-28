@@ -1,0 +1,175 @@
+/* *** joke style *** */
+.joke_style2 h1,
+h3 {
+  text-align: center;
+}
+
+.joke_style3 {
+  color: green;
+}
+
+.joke_style4 {
+  color: black;
+}
+
+.joke_style1 {
+  font-weight: bold;
+}
+
+.joke_style5 {
+  color: red
+}
+
+/* *** joke style *** */
+
+/* *** page style *** */
+#page_style1 {
+  font-family: sans-serif;
+  width: 80%;
+  margin: auto;
+  text-align: justify;
+}
+
+.page_style1 {
+  font-weight: bold;
+  color: red;
+}
+
+.page_style2 {
+  font-weight: bold;
+  color: green;
+}
+
+.page_style3 {
+  color: red;
+  text-align: left;
+}
+
+.page_style4 {
+  list-style-type: square;
+}
+
+.page_style5 {
+  list-style-type: disc;
+}
+
+.page_style6 {
+  font-weight: bold;
+  color: green;
+  text-align: center;
+}
+
+/* *** page style *** */
+
+/* *** shops style *** */
+.shops_style1 h1 {
+  text-align: center;
+}
+
+.shops_style2 {
+  list-style-position: inside;
+  text-align: center;
+  font-style: italic;
+}
+
+.shops_style3 {
+  font-weight: bold;
+}
+
+.shops_style4 {
+  list-style-type: square;
+}
+
+.shops_style5 {
+  list-style-type: disc;
+}
+
+/* *** shops style *** */
+
+/* *** egypt style *** */
+.egypt_style1 {
+  font-weight: bold;
+}
+
+.egypt_style2 p {
+  margin: 0;
+  padding: 0;
+}
+
+.egypt_style3 {
+  color: green;
+  text-align: center;
+}
+
+/* *** egypt style *** */
+
+/* *** site-map style *** */
+.site-map_style1 {
+  font-family: monospace;
+}
+
+.site-map_style2 {
+  list-style-type: none;
+}
+
+.site-map_style3 li ul li {
+  list-style-type: none;
+}
+
+.site-map_style3 li ul li::before {
+  content: "🡆";
+}
+
+.site-map_style3 li ul li ol {
+  counter-reset: item;
+  /* обнуляем счётчик */
+}
+
+.site-map_style3 li ul li ol li {
+  list-style-type: none;
+  /* убираем нумерацию */
+}
+
+.site-map_style3 li ul li ol li::before {
+  content: counter(item)". ";
+  /* нумерация начнётся с 1. */
+  counter-increment: item;
+  /* увеличение от 1 до ... */
+}
+
+/* *** site-map style *** */
+
+/* *** index style *** */
+.ind_style1 {
+  background-image: url("img/dog.png");
+  background-repeat: no-repeat;
+  background-position: left 20% top;
+  background-color: white;
+}
+
+.ind_style1 h1 {
+  font-size: 45px;
+}
+
+.ind_style1 div {
+  background-color: #d5e6f7;
+  padding: 5px 5px;
+  border-radius: 4px;
+  width: 350px;
+  font-size: 20px;
+}
+
+/* *** index style *** */
+
+/* *** стили ссылок *** */
+.ref_style .prev_style,
+.ref_style .main_style,
+.ref_style .next_style {
+  background-color: #d5e6f7;
+  padding: 5px 5px;
+  border-radius: 4px;
+  width: 100px;
+  font-size: 15px;
+  text-align: center;
+  margin: 5px;
+}
